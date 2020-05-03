@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="card col-2">
+        <div class="card card-menu col-2">
             <div class="card-header text-white">
                 <img class="rounded mx-auto d-block" src="{{ asset('img/logo.svg') }} " alt="Responsive image">
             </div>
@@ -16,35 +16,62 @@
                   </div>
             </div>
         </div>
-        <div class="card col-10">
+        <div class="card col-10 card-conteudo">
             <div class="card-header">
-                <p class="text-white">Confira os eventos</p>
+                <p class="">Confira os eventos de sua preferência</p>
             </div>
             <div class="card-body">
                 <div class="row">
                     <div class="col-sm-4">
-                      <div class="card">
+                      <div class="card card-nob card-conteudo">
+                        <div class="card-body">
+                          <a href="{{route('sala')}}">
+                              <img class="img-fluid" src="{{ asset('img/ev1.png') }}" alt="Responsive image">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="card card-nob card-conteudo">
                         <div class="card-body">
                             <a href="#!">
-                                <img class="img-fluid" src="{{ asset('img/teste.png') }}" alt="Responsive image">
+                                <img class="img-fluid" src="{{ asset('img/ev2.png') }}" alt="Responsive image">
                             </a>
                         </div>
                       </div>
                     </div>
                     <div class="col-sm-4">
-                      <div class="card">
+                      <div class="card card-nob card-conteudo">
                         <div class="card-body">
                             <a href="#!">
-                                <img class="img-fluid" src="https://d335luupugsy2.cloudfront.net/images%2Flanding_page%2F716644%2FFacebook-anuncio_1200x628px.png" alt="Responsive image">
+                                <img class="img-fluid" src="{{ asset('img/ev3.png') }}" alt="Responsive image">
                             </a>
                         </div>
                       </div>
                     </div>
                     <div class="col-sm-4">
-                      <div class="card">
+                      <div class="card card-nob card-conteudo">
                         <div class="card-body">
                             <a href="#!">
-                                <img class="img-fluid" src="https://blog.geofusion.com.br/hubfs/1%20Webinar%20an%C3%BAncio%20linkedin.png" alt="Responsive image">
+                                <img class="img-fluid" src="{{ asset('img/ev4.png') }}" alt="Responsive image">
+                            </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="card card-nob card-conteudo">
+                        <div class="card-body">
+                            <a href="#!">
+                                <img class="img-fluid" src="{{ asset('img/ev5.1.png') }}" alt="Responsive image">
+                            </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="card card-nob card-conteudo">
+                        <div class="card-body">
+                            <a href="#!">
+                                <img class="img-fluid" src="{{ asset('img/ev6.png') }}" alt="Responsive image">
                             </a>
                         </div>
                       </div>

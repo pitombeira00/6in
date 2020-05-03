@@ -25,6 +25,9 @@
         <div class="card col-9">
             <div class="card-header text-white">
                 Sala de Café
+                <a data-toggle="tooltip" data-placement="top" title="Entra na sala ">
+                    <i class="fa fa-info-circle fa-lx" aria-hidden="true"></i>
+                </a>
             </div>
             <div class="embed-responsive embed-responsive-21by9">
                 <iframe class="embed-responsive-item" src="https://video-app-5079-dev.twil.io/?passcode=5874755079" allow=" microphone; camera;  " ></iframe>

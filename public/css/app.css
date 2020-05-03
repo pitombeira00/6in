@@ -4997,6 +4997,19 @@ input[type=button].btn-block {
   border-radius: 0.25rem;
 }
 
+.card-menu{
+
+  background-color: #950F00;
+}
+.card-conteudo{
+
+  background-color: #ffffff;
+}
+
+.card-nob{
+  border: 0px solid rgba(0, 0, 0, 0.125);
+}
+
 .special-card {
   background-color: #F12711;
   opacity: .9;

@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="card col-2">
+        <div class="card card-menu col-2">
             <div class="card-header text-white">
                 <img class="rounded mx-auto d-block" src="{{ asset('img/logo.svg') }} " alt="Responsive image">
             </div>
@@ -16,9 +16,11 @@
                   </div>
             </div>
         </div>
-        <div class="card col-10">
-            <div class="card-header text-white">
-               Bem vindo
+        <div class="card card-conteudo col-10">
+            <div class="card-body">
+                <a href="{{route('sala')}}">
+                    <img class="img-fluid rounded" src="{{ asset('img/ev7.jpeg') }}" alt="Responsive image">
+                </a>
             </div>
         </div>
 
