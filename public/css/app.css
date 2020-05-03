@@ -68,6 +68,13 @@ section {
 }
 
 body {
+ 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.body-inicial{
   background: url("/img/background.png")  no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -4992,8 +4999,8 @@ input[type=button].btn-block {
 
 .special-card {
   background-color: #F12711;
-  opacity: .7;
-  color: #fff !important;
+  opacity: .9;
+  color: #fff3ff !important;
  }
 .card > hr {
   margin-right: 0;

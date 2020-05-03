@@ -20,3 +20,13 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::group(['middleware' => ['auth']], function () {
+
+    Route::get('/Inicio', 'HomeController@index')->name('home');
+    Route::get('/Sala', 'HomeController@sala')->name('sala');
+    Route::get('/Eventos', 'HomeController@eventos')->name('eventos');
+
+
+});
+

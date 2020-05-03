@@ -23,6 +23,17 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        return view('inicial');
+    }
+   
+
+    public function eventos()
+    {
+        return view('espectador.inicio');
+    }
+
+    public function sala()
+    {
+        return view('espectador.evento');
     }
 }

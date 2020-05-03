@@ -72,22 +72,6 @@
                     </form>
                 </div>
             </div>
-            @else 
-            <div class="card special-card">
-                
-                <div class="card-header text-white">Dashboard</div>
-
-                <h4 class="rounded mx-auto d-block text-white">Dashboard</h4>
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    
-                </div>
-            </div>
             @endguest
             
         </div>
