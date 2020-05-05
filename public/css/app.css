@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@charset "UTF-8";
 
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
@@ -34,7 +35,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Nunito", sans-serif;
+  --font-family-sans-serif: Raleway, "Nunito", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -48,7 +49,7 @@ html {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
-  
+
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -68,7 +69,7 @@ section {
 }
 
 body {
- 
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -262,7 +263,7 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: inherit;
+  font-family: Raleway, sans-serif;
   font-size: inherit;
   line-height: inherit;
 }
@@ -2358,6 +2359,10 @@ textarea.form-control {
   align-items: center;
   padding-left: 0;
   margin-right: 0.75rem;
+}
+
+.width-100 {
+    width: 100%;
 }
 
 .form-check-inline .form-check-input {
